@@ -1,12 +1,14 @@
 :root {
-  --background-color: #f2db74;
+  --background-color: #f4e294;
   --dark-color: #16181d;
   --mid-dark-color: #20232a;
   --light-color: #fafafa;
   --color-one: #d1d1ea;
+  --color-one-dark: #a4a4cc;
   --color-two: #ff6562;
+  --color-two-dark: #df5f5d;
   --radius: 4px;
-  --transition: 300ms;
+  --transition: 200ms;
 }
 body {
   color: var(--dark-color);

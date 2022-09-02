@@ -4,8 +4,7 @@ import "./Description.css";
 export default function Description() {
   return (
     <div className="description">
-      <p>Hello from Description</p>
-
+      <p>x</p>
       <p>
         <a
           href="https://www.sitepoint.com/react-tutorial-build-calculator-app/"
