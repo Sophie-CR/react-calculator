@@ -1,0 +1,8 @@
+p {
+  font-size: 14pt;
+}
+@media (max-width: 992px) {
+  .description {
+    margin-top: 25px;
+  }
+}
