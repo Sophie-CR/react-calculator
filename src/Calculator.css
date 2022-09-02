@@ -1,0 +1,31 @@
+.calculator {
+  background-color: var(--background-color);
+  border-radius: var(--radius);
+  display: block;
+  margin: 0 auto;
+  max-width: fit-content;
+  padding: 10px;
+}
+
+.screen {
+  background-color: var(--mid-dark-color);
+  border-radius: var(--radius);
+  color: var(--light-color);
+  font-size: 16pt;
+  margin-bottom: 10px;
+  padding: 2px 8px;
+  text-align: right;
+}
+
+.button-box {
+  background-color: var(--background-color);
+}
+
+.game-button {
+  background-color: var(--color-one);
+  border-color: var(--dark-color);
+  border-radius: var(--radius);
+  color: var(--dark-color);
+  font-size: 20pt;
+  padding: 2px 10px;
+}
