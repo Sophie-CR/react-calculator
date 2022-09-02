@@ -1,8 +1,10 @@
 :root {
-  --background-color: #f7f7f7;
+  --background-color: #f2db74;
   --dark-color: #16181d;
-  --grey: #20232a;
-  --blue: #61dafb;
+  --mid-dark-color: #20232a;
+  --light-color: #fafafa;
+  --color-one: #d1d1ea;
+  --color-two: #ff6562;
   --radius: 6px;
   --transition: 300ms;
 }
@@ -12,19 +14,21 @@ body {
   margin: 20px;
 }
 a {
-  color: var(--grey);
+  color: var(--mid-dark-color);
 }
 a:hover {
-  color: var(--blue) !important;
+  color: var(--color-two) !important;
   transition-duration: var(--transition);
 }
 .button {
+  color: var(--mid-dark-color);
   background-color: var(--background-color);
   border-radius: var(--radius);
   padding: 2px 4px;
 }
 .button:hover {
-  background-color: var(--blue) !important;
+  color: var(--light-color);
+  background-color: var(--color-two) !important;
   transition-duration: var(--transition);
 }
 .button:focus {

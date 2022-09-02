@@ -11,7 +11,7 @@ export default function Footer() {
               <i className="fa-brands fa-github icon"></i>{" "}
             </span>
             <a
-              href="/"
+              href="https://github.com/Sophie-CR/react-calculator"
               target="_blank"
               rel="noreferrer"
               className="footer-link"
