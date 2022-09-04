@@ -7,9 +7,15 @@ import "./Calculator.css";
 export default function Calculator() {
   return (
     <div className="calculator">
-      <Screen />
+      <Screen value="0" />
       <ButtonBox>
-        <Button />
+        <Button
+          className="game-button test"
+          value="0"
+          onClick={() => {
+            console.log("Button clicked!");
+          }}
+        />
       </ButtonBox>
     </div>
   );
