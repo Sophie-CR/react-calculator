@@ -4,7 +4,19 @@ import "./Description.css";
 export default function Description() {
   return (
     <div className="description">
-      <p>x</p>
+      <p>
+        I built this calculator app as an exercise in using React, following an
+        online tutorial.
+      </p>
+      <p>
+        I gave the calculator its own styling, including making the buttons
+        appear more realistic, especially when pressed.
+      </p>
+      <p>
+        This app was fun to build and it gave me the opportunity to learn more
+        about how mathematical functions are handled in JavaScript. The
+        calculator is fully functional; try some equations for yourself!
+      </p>
       <p>
         <a
           href="https://www.sitepoint.com/react-tutorial-build-calculator-app/"

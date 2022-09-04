@@ -1,5 +1,5 @@
 :root {
-  --background-color: #f4e294;
+  --background-color: #f8e9a7;
   --dark-color: #16181d;
   --mid-dark-color: #20232a;
   --light-color: #fafafa;
@@ -13,7 +13,7 @@
 }
 body {
   color: var(--dark-color);
-  font: 14px "Century Gothic", Futura, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 20px;
 }
 a {
